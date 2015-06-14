@@ -1,0 +1,38 @@
+Ruby symbols:
+
+puts -  prints out to the screen. This add a newline after.  Print does not
+#    - octothorpe (Comment symbol )
+
+Math operators
++  
+-
+/
+*
+%
+<
+>
+<=
+>=
+
+#{}  - embeds a variable inside a string
+
+Escape Sequences ( Lesson 10 ):
+\\   - backslash
+\'  - single-quote
+\"  - double quote
+\a  - ASCII bell
+\b  - backspace
+\f  - formfeed
+\n  - newline character
+\r  - carriage return
+\t  - horizontal tab
+\uxxxx  - character with 16-bit hex value
+\v   - vertical tab
+\ooo  - octal value ooo
+\xhh  - hex value
+
+gets.chomp  - gets, gets a line of text.  chomp removes the line break
+ARGV  - "argument variable".  Holds the arguments you pass to your Ruby script when you run it
+irb   - start the Ruby shell
+readline  - reads just one line of a text file
+truncate  - empties the file
