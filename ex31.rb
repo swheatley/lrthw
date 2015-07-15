@@ -8,6 +8,7 @@ if door == "1"
 	puts " 1. Take the cake."
 	puts " 2. Scream at the bear."
 	puts " 3. "
+	
 
 	print " > "
 	bear = $stdin.gets.chomp
@@ -21,10 +22,21 @@ if door == "1"
 	end
 
 elsif door == "2"
-	puts "You stare into the endless abyss at Cyhulhu's retina."
-	puts "1. Blueberries."
-	puts "2. Yellow jacket clothespins."
-	puts "3. Understanding revolvers yelling melodies."
+	puts "There is a fairy playing a harp and singing.  Should you?"
+	puts "1. Sing with the fairy?"
+	puts "2. Tell the fairy to be quiet."
+	puts "3. Sit quietly while admiring her beautiful music."
+
+	print "> "
+	fairy = $stdin.gets.chomp
+
+	if fairy == "1" || fairy == "2"
+		puts " 'You have a beautiful voice', The faiy says."
+	elsif 
+		puts "The fairy is shocked and flys away leaving you alone."
+	else
+		puts "You fall asleep and dream of flying in the sunlight."
+	end
 
 elsif door == "3"
 	puts "You are in a forest with a crystal clear lake and a wooden chair to sit in."
@@ -34,15 +46,17 @@ elsif door == "3"
 
 	
 	print "> "
-	insanity = $stdin.gets.chomp
+	lake = $stdin.gets.chomp
 
-	if insanity == "1" || insanity == "2"
-		puts "Your body survives powered by a mind of jello. Good job!"
-	else 
-		puts "The insanity rots your eyes into a pool of muck. Good job!"
+	if lake == "1" || lake == "2"
+		puts "The picnic was so yummy. But now you have to go to the bathroom. Oh no..."
+	elsif 
+		puts "You never wake up and dream a forever dream."
+	else
+		puts "You see a magical deer who grants you one wish."
 	end
-elsif door == "3"
-	puts "You are in a forest with a crystal clear lake and a wooden chair to sit in."
+
+
 
 else
 	puts "You stumble around and fall on a knife and die. Good job!"
